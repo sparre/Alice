@@ -38,11 +38,9 @@ b~*.ad[sb]
 /gnat-sockets-extras/
 
 # Generated test executables:
-/tests/ahven/black-tests-run
 /tests/task_interfaces_and_extended_return/run
 
 # Test output to clean up:
-/tests/ahven/test_data_[1-4]
 
 # Output from source text metric analysis:
 /obj/*.ad[sb].metrix
