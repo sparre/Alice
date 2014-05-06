@@ -33,6 +33,7 @@ b~*.ad[sb]
 
 # Generated source files:
 /ada_2012_extensions/
+/ahven/
 /black/
 /gnat-sockets-extras/
 
