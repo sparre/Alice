@@ -413,10 +413,11 @@ package body PBX.Action is
                declare
                   Line  : Unbounded_String;
                begin
-                  Get_Line (Source => Reply.Response_Body
-                                        (Position - 1 .. Reply.Response_Body'Last),
-                            Last   => Position,
-                            Item   => Line);
+                  Get_Line
+                    (Source => Reply.Response_Body
+                                 (Position - 1 .. Reply.Response_Body'Last),
+                     Last   => Position,
+                     Item   => Line);
 
                   declare
                      Items : constant Peer_Packet_Items := Parse (Line);
