@@ -24,6 +24,7 @@ PROJECT=call_flow_control
 GENERATED_EXECUTABLES=exe/$(PROJECT)
 
 GENERATED_SOURCES=ada_2012_extensions \
+                  ahven \
                   black \
                   gnat-sockets-extras
 
