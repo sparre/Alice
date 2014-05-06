@@ -15,6 +15,8 @@
 --                                                                           --
 -------------------------------------------------------------------------------
 
+--  https://github.com/AdaHeads/Call-Flow-Control/wiki/Protocol-Call-Pickup
+
 --  Reponse handler for transferring a current call (channel) to another
 --  extension. This is, in our case, used to redirect active inbound calls
 --  to local peers (users) - or more correctly, picking them up.

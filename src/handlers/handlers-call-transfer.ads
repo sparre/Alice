@@ -15,6 +15,8 @@
 --                                                                           --
 -------------------------------------------------------------------------------
 
+--  https://github.com/AdaHeads/Call-Flow-Control/wiki/Protocol-Call-Transfer
+
 --  Reponse handler for bridging a current call (active channel) to another
 --  active call. This is used for performing attended transfers.
 --

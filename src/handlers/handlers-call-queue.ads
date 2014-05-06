@@ -15,6 +15,8 @@
 --                                                                           --
 -------------------------------------------------------------------------------
 
+--  https://github.com/AdaHeads/Call-Flow-Control/wiki/Protocol-Call-Queue
+
 --  Reponse handler for listing all queued calls visible to the agent.
 --
 --  Parameters: None
